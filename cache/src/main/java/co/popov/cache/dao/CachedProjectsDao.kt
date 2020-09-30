@@ -1,9 +1,9 @@
 package co.popov.cache.dao
 
-import android.arch.persistence.room.Dao
-import android.arch.persistence.room.Insert
-import android.arch.persistence.room.OnConflictStrategy
-import android.arch.persistence.room.Query
+import androidx.room.Dao
+import androidx.room.Insert
+import androidx.room.OnConflictStrategy
+import androidx.room.Query
 import co.popov.cache.db.ProjectConstants.DELETE_PROJECTS
 import co.popov.cache.db.ProjectConstants.QUERY_BOOKMARKED_PROJECTS
 import co.popov.cache.db.ProjectConstants.QUERY_PROJECTS

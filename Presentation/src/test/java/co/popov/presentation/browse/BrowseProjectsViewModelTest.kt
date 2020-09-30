@@ -1,6 +1,6 @@
 package co.popov.presentation.browse
 
-import android.arch.core.executor.testing.InstantTaskExecutorRule
+import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import co.popov.domain.interactor.bookmark.BookmarkProject
 import co.popov.domain.interactor.bookmark.UnbookmarkProject
 import co.popov.domain.interactor.browse.GetProjects

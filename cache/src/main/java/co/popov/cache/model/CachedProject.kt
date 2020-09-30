@@ -1,8 +1,8 @@
 package co.popov.cache.model
 
-import android.arch.persistence.room.ColumnInfo
-import android.arch.persistence.room.Entity
-import android.arch.persistence.room.PrimaryKey
+import androidx.room.ColumnInfo
+import androidx.room.Entity
+import androidx.room.PrimaryKey
 import co.popov.cache.db.ProjectConstants
 
 @Entity(tableName = ProjectConstants.TABLE_NAME)

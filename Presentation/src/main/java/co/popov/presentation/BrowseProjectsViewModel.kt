@@ -1,8 +1,8 @@
 package co.popov.presentation
 
-import android.arch.lifecycle.LiveData
-import android.arch.lifecycle.MutableLiveData
-import android.arch.lifecycle.ViewModel
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.ViewModel
 import co.popov.domain.interactor.bookmark.BookmarkProject
 import co.popov.domain.interactor.bookmark.UnbookmarkProject
 import co.popov.domain.interactor.browse.GetProjects

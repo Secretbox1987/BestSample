@@ -1,7 +1,7 @@
 package co.popov.mobile_ui.injection.module
 
-import android.arch.lifecycle.ViewModel
-import android.arch.lifecycle.ViewModelProvider
+import androidx.lifecycle.ViewModel
+import androidx.lifecycle.ViewModelProvider
 import co.popov.mobile_ui.injection.ViewModelFactory
 import co.popov.presentation.BrowseBookmarkedProjectsViewModel
 import co.popov.presentation.BrowseProjectsViewModel

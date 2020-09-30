@@ -1,7 +1,7 @@
 package co.popov.cache
 
-import android.arch.core.executor.testing.InstantTaskExecutorRule
-import android.arch.persistence.room.Room
+import androidx.arch.core.executor.testing.InstantTaskExecutorRule
+import androidx.room.Room
 import co.popov.cache.db.ProjectsDatabase
 import co.popov.cache.mapper.CachedProjectMapper
 import co.popov.cache.test.factory.ProjectDataFactory

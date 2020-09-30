@@ -2,7 +2,7 @@ package co.popov.mobile_ui.test
 
 import android.app.Activity
 import android.app.Application
-import android.support.test.InstrumentationRegistry
+import androidx.test.platform.app.InstrumentationRegistry
 import co.popov.mobile_ui.injection.DaggerTestApplicationComponent
 import co.popov.mobile_ui.injection.TestApplicationComponent
 import dagger.android.AndroidInjector
