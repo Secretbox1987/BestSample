@@ -3,9 +3,9 @@ package co.popov.presentation
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import co.popov.domain.interactor.bookmark.BookmarkProject
-import co.popov.domain.interactor.bookmark.UnbookmarkProject
-import co.popov.domain.interactor.browse.GetProjects
+import co.popov.domain.bookmark.BookmarkProject
+import co.popov.domain.bookmark.UnbookmarkProject
+import co.popov.domain.browse.GetProjects
 import co.popov.domain.model.Project
 import co.popov.presentation.mapper.ProjectViewMapper
 import co.popov.presentation.model.ProjectView
@@ -24,7 +24,7 @@ open class BrowseProjectsViewModel @Inject internal constructor(
     private val liveData: MutableLiveData<Resource<List<ProjectView>>> = MutableLiveData()
 
     init {
-        fetchProjects()
+//        fetchProjects()
     }
 
     override fun onCleared() {

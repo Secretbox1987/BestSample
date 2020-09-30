@@ -3,7 +3,7 @@ package co.popov.presentation
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import co.popov.domain.interactor.bookmark.GetBookmarkedProjects
+import co.popov.domain.bookmark.GetBookmarkedProjects
 import co.popov.domain.model.Project
 import co.popov.presentation.mapper.ProjectViewMapper
 import co.popov.presentation.model.ProjectView

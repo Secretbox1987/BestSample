@@ -1,4 +1,4 @@
-package co.popov.domain.interactor.bookmark
+package co.popov.domain.bookmark
 
 import co.popov.domain.executor.PostExecutionThread
 import co.popov.domain.CompletableUseCase

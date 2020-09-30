@@ -1,7 +1,7 @@
 package co.popov.githubtrending.bookmarked
 
 import co.popov.domain.executor.PostExecutionThread
-import co.popov.domain.interactor.bookmark.GetBookmarkedProjects
+import co.popov.domain.bookmark.GetBookmarkedProjects
 import co.popov.domain.model.Project
 import co.popov.domain.repository.ProjectsRepository
 import co.popov.githubtrending.test.ProjectDataFactory

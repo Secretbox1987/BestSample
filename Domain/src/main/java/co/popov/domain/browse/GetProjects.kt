@@ -1,4 +1,4 @@
-package co.popov.domain.interactor.browse
+package co.popov.domain.browse
 
 import co.popov.domain.ObservableUseCase
 import co.popov.domain.executor.PostExecutionThread

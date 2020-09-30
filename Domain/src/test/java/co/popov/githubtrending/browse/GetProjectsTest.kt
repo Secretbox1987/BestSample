@@ -1,7 +1,7 @@
 package co.popov.githubtrending.browse
 
 import co.popov.domain.executor.PostExecutionThread
-import co.popov.domain.interactor.browse.GetProjects
+import co.popov.domain.browse.GetProjects
 import co.popov.domain.model.Project
 import co.popov.domain.repository.ProjectsRepository
 import co.popov.githubtrending.test.ProjectDataFactory

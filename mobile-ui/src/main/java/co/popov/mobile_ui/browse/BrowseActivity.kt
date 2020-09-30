@@ -50,20 +50,20 @@ class BrowseActivity : AppCompatActivity() {
         browseViewModel.fetchProjects()
     }
 
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.main, menu)
-        return true
-    }
-
-    override fun onOptionsItemSelected(item: MenuItem): Boolean {
-        return when (item.itemId) {
-            R.id.action_bookmarked -> {
-                startActivity(BookmarkedActivity.getStartIntent(this))
-                true
-            }
-            else -> super.onOptionsItemSelected(item)
-        }
-    }
+//    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
+//        menuInflater.inflate(R.menu.main, menu)
+//        return true
+//    }
+//
+//    override fun onOptionsItemSelected(item: MenuItem): Boolean {
+//        return when (item.itemId) {
+//            R.id.action_bookmarked -> {
+//                startActivity(BookmarkedActivity.getStartIntent(this))
+//                true
+//            }
+//            else -> super.onOptionsItemSelected(item)
+//        }
+//    }
 
     private fun setupBrowseRecycler() {
         browseAdapter.projectListener = projectListener
