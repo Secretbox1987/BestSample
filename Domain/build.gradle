@@ -6,7 +6,10 @@ dependencies {
     def domainTestDependencies = rootProject.ext.domainTestDependencies
     implementation domainDependencies.javaxAnnotation
     implementation domainDependencies.javaxInject
+    implementation domainDependencies.kotlin
+    implementation domainDependencies.javaxAnnotation
     implementation domainDependencies.rxJava
+    implementation domainDependencies.rxKotlin
     testImplementation domainTestDependencies.mockito
     testImplementation domainTestDependencies.assertj
 }

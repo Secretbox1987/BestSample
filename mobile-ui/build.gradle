@@ -40,7 +40,6 @@ dependencies {
 
     implementation mobileUiDependencies.javaxAnnotation
 
-    implementation mobileUiDependencies.kotlin
     implementation mobileUiDependencies.javaxInject
     implementation mobileUiDependencies.rxKotlin
     implementation mobileUiDependencies.androidAnnotations

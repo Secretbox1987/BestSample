@@ -32,6 +32,7 @@ dependencies {
     implementation project(':Data')
 
     implementation cacheDependencies.kotlin
+    implementation cacheDependencies.kotlinReflect
     implementation cacheDependencies.javaxInject
     implementation cacheDependencies.rxKotlin
     implementation cacheDependencies.roomRuntime

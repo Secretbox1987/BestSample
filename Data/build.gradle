@@ -7,9 +7,9 @@ dependencies {
     compile project(':Domain')
 
     implementation dataDependencies.javaxAnnotation
-    implementation dataDependencies.kotlin
     implementation dataDependencies.javaxInject
-    implementation dataDependencies.rxKotlin
+    implementation dataDependencies.rxJava
+    implementation dataDependencies.kotlin
 
     testImplementation dataTestDependencies.junit
     testImplementation dataTestDependencies.kotlinJUnit
