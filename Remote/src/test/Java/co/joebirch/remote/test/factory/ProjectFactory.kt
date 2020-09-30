@@ -1,6 +1,6 @@
-package co.joebirch.remote.test.factory
+package co.popov.remote.test.factory
 
-import co.joebirch.remote.model.ProjectModel
+import co.popov.remote.model.ProjectModel
 
 object ProjectFactory {
 

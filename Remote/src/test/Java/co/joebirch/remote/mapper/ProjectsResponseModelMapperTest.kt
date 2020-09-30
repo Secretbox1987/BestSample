@@ -1,6 +1,6 @@
-package co.joebirch.remote.mapper
+package co.popov.remote.mapper
 
-import co.joebirch.remote.test.factory.ProjectFactory
+import co.popov.remote.test.factory.ProjectFactory
 import org.junit.Test
 import org.junit.runner.RunWith
 import org.junit.runners.JUnit4

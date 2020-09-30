@@ -1,4 +1,4 @@
-package co.joebirch.remote.test.factory
+package co.popov.remote.test.factory
 
 import java.util.*
 import java.util.concurrent.ThreadLocalRandom

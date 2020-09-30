@@ -1,4 +1,4 @@
-package co.joebirch.githubtrending
+package co.popov.githubtrending
 
 import org.junit.Test
 

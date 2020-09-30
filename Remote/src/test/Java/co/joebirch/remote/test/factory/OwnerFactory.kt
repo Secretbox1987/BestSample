@@ -1,6 +1,6 @@
-package co.joebirch.remote.test.factory
+package co.popov.remote.test.factory
 
-import co.joebirch.remote.model.OwnerModel
+import co.popov.remote.model.OwnerModel
 
 object OwnerFactory {
 
